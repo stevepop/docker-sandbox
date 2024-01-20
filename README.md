@@ -8,4 +8,6 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ssl/nginx.key -out s
 This should generate two files, `nginx.crt` and `nginx.key`
 
 # In the project folder run the following;
-`docker-compose up -d` This will build the images and run the contaiers in the background.
+`docker-compose up -d` This will build the images and run the containers in the background.
+
+The application should be accessible at https://127.0.0.1
